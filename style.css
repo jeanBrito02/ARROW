@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #2c2b2b;
+  color: white;
+}
+
+.generalbox {
+  background-image: url(imagens/hero.jpg);
+  background-size: cover;
+  max-height: 215px;
+  height: 100%;
+}
+
+.logo {
+  width: 35px;
+}
+
+.nav-bar_container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  gap: 8px;
+}
+
+li {
+  display: inline-block;
+  margin: 5px;
+  font-size: 10px;
+  font-weight: 400;
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  color: white;
+  gap: 5px;
+}
+
+a:hover {
+  transition: 0.5s;
+  color: #c8cd47;
+}
+
+.paragraph-h1 {
+  font-size: 40px;
+  color: #c8cd47;
+  margin-left: 8px;
+}
+
+.paragraph-h2 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: 15px;
+  margin-left: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.paragraph-h3 {
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.paragraph-h4 {
+  font-size: 10px;
+  color: #c8cd47;
+  margin-left: 23px;
+}
+
+.paragraph-p {
+  font-weight: 400;
+  font-size: 8px;
+  width: 93px;
+  margin-left: 20px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.button-hero {
+  font-size: 16px;
+  width: 100px;
+  height: 22px;
+  border-radius: 15px;
+  background-color: #c8cd47;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 10px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.section {
+  height: 167px;
+  display: flex;
+  flex-direction: column;
+}
+
+.container-img {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 22px;
+}
+
+.img-curiosidade1 {
+  width: 136px;
+  height: 85px;
+}
+
+.img-curiosidade2 {
+  width: 136px;
+  height: 85px;
+}
+
+.curiosidades-h2 {
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  text-align: center;
+  margin-top: 12px;
+  color: #c8cd47;
+  font-weight: 400;
+}
+
+.curiosidades-p {
+  width: 281px;
+  height: 53px;
+  font-size: 10px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  margin-left: 45px;
+  margin-bottom: 45px;
+}
+
+.button-curiosidades {
+  font-size: 18px;
+  font-weight: 400;
+  width: 110px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: #c8cd47;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  margin-left: 135px;
+  font-family: "Bebas Neue", cursive;
+}
+
+@media (min-width: 748px) {
+  .generalbox {
+    max-height: 419.06px;
+  }
+
+  .logo {
+    width: 57px;
+  }
+
+  .nav-bar_container {
+    gap: 40px;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  .paragraph-h1 {
+    font-size: 64px;
+    margin-left: 13px;
+  }
+
+  .paragraph-h2 {
+    font-size: 15px;
+    margin-left: 50px;
+  }
+
+  .paragraph-h3 {
+    font-size: 18px;
+    margin-left: 55px;
+  }
+
+  .paragraph-h4 {
+    font-size: 15px;
+    margin-left: 55px;
+    margin-bottom: 10px;
+  }
+
+  .paragraph-p {
+    font-size: 15px;
+    width: 178px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+  }
+
+  .button-hero {
+    width: 122px;
+    height: 36px;
+    font-size: 20px;
+    margin-left: 30px;
+  }
+
+  .section{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .img-curiosidade1{
+    width: 230px;
+    height: 183px;
+    margin-left: 25px;
+    margin-right: 10px;
+  }
+
+  .img-curiosidade2{
+    width: 230px;
+    height: 183px;
+  }
+
+  .curiosidades-h2{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-top: 35px;
+  }
+
+  .curiosidades-p{
+    display: flex;
+    flex-direction: column;
+    width: 259px;
+    height: 75pxpx;
+    margin-top: 100px;
+    text-align: start;
+  }
+}
+
+@media (min-width: 1044px) {
+  .generalbox {
+    max-height: 823px;
+  }
+
+  .logo {
+    width: 80px;
+  }
+
+  .nav-bar_container {
+    gap: 50px;
+  }
+
+  li {
+    font-size: 25px;
+  }
+
+  a {
+    margin: 10px;
+  }
+
+  .paragraph-h1 {
+    font-size: 96px;
+    margin-bottom: 10px;
+  }
+
+  .paragraph-h2 {
+    font-size: 25px;
+    margin-top: 110px;
+  }
+
+  .paragraph-h3 {
+    margin-left: 75px;
+  }
+
+  .paragraph-h4 {
+    margin-left: 75px;
+  }
+
+  .paragraph-p {
+    margin-left: 60px;
+    width: 205px;
+    margin-bottom: 50px;
+  }
+
+  .button-hero {
+    width: 238px;
+    height: 64px;
+    font-size: 36px;
+    margin-bottom: 100px;
+  }
+}
