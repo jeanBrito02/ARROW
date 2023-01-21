@@ -91,6 +91,7 @@ a:hover {
   margin-top: 5px;
   margin-left: 10px;
   font-family: "Bebas Neue", cursive;
+  cursor: pointer;
 }
 
 .section {
