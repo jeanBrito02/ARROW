@@ -94,60 +94,6 @@ a:hover {
   cursor: pointer;
 }
 
-.section {
-  height: 167px;
-  display: flex;
-  flex-direction: column;
-}
-
-.container-img {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 22px;
-}
-
-.img-curiosidade1 {
-  width: 136px;
-  height: 85px;
-}
-
-.img-curiosidade2 {
-  width: 136px;
-  height: 85px;
-}
-
-.curiosidades-h2 {
-  font-size: 25px;
-  font-family: "Bebas Neue", cursive;
-  text-align: center;
-  margin-top: 12px;
-  color: #c8cd47;
-  font-weight: 400;
-}
-
-.curiosidades-p {
-  width: 281px;
-  height: 53px;
-  font-size: 10px;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  margin-left: 45px;
-  margin-bottom: 45px;
-}
-
-.button-curiosidades {
-  font-size: 18px;
-  font-weight: 400;
-  width: 110px;
-  height: 50px;
-  border-radius: 15px;
-  background-color: #c8cd47;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  margin-left: 135px;
-  font-family: "Bebas Neue", cursive;
-}
-
 @media (min-width: 748px) {
   .generalbox {
     max-height: 419.06px;
@@ -198,38 +144,6 @@ a:hover {
     height: 36px;
     font-size: 20px;
     margin-left: 30px;
-  }
-
-  .section{
-    display: flex;
-    flex-direction: row;
-  }
-
-  .img-curiosidade1{
-    width: 230px;
-    height: 183px;
-    margin-left: 25px;
-    margin-right: 10px;
-  }
-
-  .img-curiosidade2{
-    width: 230px;
-    height: 183px;
-  }
-
-  .curiosidades-h2{
-    font-size: 30px;
-    margin-left: 20px;
-    margin-top: 35px;
-  }
-
-  .curiosidades-p{
-    display: flex;
-    flex-direction: column;
-    width: 259px;
-    height: 75pxpx;
-    margin-top: 100px;
-    text-align: start;
   }
 }
 
