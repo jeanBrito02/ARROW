@@ -95,21 +95,30 @@ a:hover {
 }
 
 .curiosity {
-  margin: 10px;
+  margin: 20px;
+}
+
+.img_curiosity{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.text_curiosity{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .curiosity1 {
   width: 120px;
   height: 84px;
-  margin-top: 20px;
-  margin-left: 20px;
 }
 
 .curiosity2 {
   width: 120px;
   height: 84px;
-  margin-top: 20px;
-  margin-left: 10px;
 }
 
 .curiosity h1 {
@@ -132,7 +141,7 @@ a:hover {
   font-size: 25px;
   font-family: "Bebas Neue", cursive;
   margin-top: 20px;
-  margin-left: 80px;
+  cursor: pointer;
 }
 
 @media (min-width: 748px) {
