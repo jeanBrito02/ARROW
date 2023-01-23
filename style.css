@@ -152,6 +152,8 @@ a:hover {
   text-align: center;
   color: #c8cd47;
   font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
 }
 
 .h2_season{
@@ -280,6 +282,53 @@ a:hover {
     height: 55px;
     font-size: 32px;
   }
+  .season{
+    margin: 10px;
+    margin-top: 35px;
+    margin-left: 45px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .h1_season{
+    font-size: 45px;
+  }
+  
+  .h2_season{
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 32px;
+  }
+  
+  .paragrapy_season{
+    font-size: 14px;
+  }
+  
+  .season_impar{
+    max-width: 350px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .season_par{
+    max-width: 275px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .img_season{
+    width: 110px;
+    height: 164px;
+  }
+  
+  .text_season{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1044px) {
@@ -371,5 +420,54 @@ a:hover {
     width: 238px;
     height: 65px;
     font-size: 35px;
+    margin-bottom: 35px;
+  }
+
+  .season{
+    margin: 10px;
+    margin-top: 35px;
+    margin-left: 95px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .h1_season{
+    font-size: 45px;
+  }
+  
+  .h2_season{
+    font-family: "Bebas Neue", cursive;
+    font-weight: 400;
+    font-size: 36px;
+  }
+  
+  .paragrapy_season{
+    font-size: 20px;
+  }
+  
+  .season_impar{
+    max-width: 356px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .season_par{
+    max-width: 450px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .img_season{
+    width: 185px;
+    height: 277px;
+  }
+  
+  .text_season{
+    display: flex;
+    flex-direction: column;
   }
 }
