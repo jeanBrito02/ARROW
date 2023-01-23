@@ -144,6 +144,48 @@ a:hover {
   cursor: pointer;
 }
 
+.season{
+  margin: 10px;
+}
+
+.h1_season{
+  text-align: center;
+  color: #c8cd47;
+  font-size: 30px;
+}
+
+.h2_season{
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+}
+
+.paragrapy_season{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+
+.season_impar{
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.season_par{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
+}
+
+.img_season{
+  width: 84px;
+  height: 126px;
+}
+
+.text_season{
+  display: flex;
+  flex-direction: column;
+}
+
 @media (min-width: 748px) {
   .generalbox {
     max-height: 419.06px;
