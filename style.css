@@ -195,6 +195,48 @@ a:hover {
     font-size: 20px;
     margin-left: 30px;
   }
+
+  .curiosity {
+    margin: 30px;
+  }
+  
+  .img_curiosity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .text_curiosity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .curiosity1 {
+    width: 250px;
+    height: 184px;
+  }
+  
+  .curiosity2 {
+    width: 250px;
+    height: 184px;
+  }
+  
+  .curiosity h1 {
+    font-size: 45px;
+  }
+  
+  .paragrapy_curiosity {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .button_curiosity {
+    width: 230px;
+    height: 55px;
+    font-size: 32px;
+  }
 }
 
 @media (min-width: 1044px) {
@@ -247,5 +289,44 @@ a:hover {
     height: 64px;
     font-size: 36px;
     margin-bottom: 100px;
+  }
+
+  .curiosity {
+    margin: 25px;
+  }
+  
+  .img_curiosity{
+    gap: 45px;
+  }
+  
+  .text_curiosity{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .curiosity1 {
+    width: 400px;
+    height: 250px;
+  }
+  
+  .curiosity2 {
+    width: 400px;
+    height: 250px;
+  }
+  
+  .curiosity h1 {
+    font-size: 55px;
+  }
+  
+  .paragrapy_curiosity {
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .button_curiosity {
+    width: 238px;
+    height: 65px;
+    font-size: 35px;
   }
 }
