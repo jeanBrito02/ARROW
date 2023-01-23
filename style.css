@@ -94,6 +94,47 @@ a:hover {
   cursor: pointer;
 }
 
+.curiosity {
+  margin: 10px;
+}
+
+.curiosity1 {
+  width: 120px;
+  height: 84px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.curiosity2 {
+  width: 120px;
+  height: 84px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.curiosity h1 {
+  color: #c8cd47;
+  text-align: center;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.paragrapy_curiosity {
+  text-align: center;
+}
+
+.button_curiosity {
+  background-color: #c8cd47;
+  width: 145px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  margin-top: 20px;
+  margin-left: 80px;
+}
+
 @media (min-width: 748px) {
   .generalbox {
     max-height: 419.06px;
