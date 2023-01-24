@@ -202,7 +202,7 @@ a:hover {
 .elenco_imgs{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 
 .img_elenco{
