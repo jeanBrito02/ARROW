@@ -92,20 +92,21 @@ a:hover {
   margin-left: 10px;
   font-family: "Bebas Neue", cursive;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .curiosity {
   margin: 20px;
 }
 
-.img_curiosity{
+.img_curiosity {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 30px;
 }
 
-.text_curiosity{
+.text_curiosity {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -142,13 +143,14 @@ a:hover {
   font-family: "Bebas Neue", cursive;
   margin-top: 20px;
   cursor: pointer;
+  text-decoration: none;
 }
 
-.season{
+.season {
   margin: 10px;
 }
 
-.h1_season{
+.h1_season {
   text-align: center;
   color: #c8cd47;
   font-size: 30px;
@@ -156,40 +158,40 @@ a:hover {
   font-weight: 400;
 }
 
-.h2_season{
+.h2_season {
   font-family: "Bebas Neue", cursive;
   font-weight: 400;
 }
 
-.paragrapy_season{
+.paragrapy_season {
   font-family: "Montserrat", sans-serif;
   font-size: 14px;
 }
 
-.season_impar{
+.season_impar {
   display: flex;
   gap: 15px;
   margin-top: 20px;
 }
 
-.season_par{
+.season_par {
   display: flex;
   flex-direction: row-reverse;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.img_season{
+.img_season {
   width: 84px;
   height: 126px;
 }
 
-.text_season{
+.text_season {
   display: flex;
   flex-direction: column;
 }
 
-.h1_elenco{
+.h1_elenco {
   color: #c8cd47;
   font-size: 30px;
   font-family: "Bebas Neue", cursive;
@@ -199,43 +201,43 @@ a:hover {
   margin-bottom: 15px;
 }
 
-.elenco_imgs{
+.elenco_imgs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
   justify-items: center;
-  text-align:center;
+  text-align: center;
   align-items: center;
 }
 
-.img_elenco{
+.img_elenco {
   width: 131px;
   height: 172px;
   margin-bottom: 40px;
 }
 
-.footer{
+.footer {
   width: 100vw;
-  height:auto;
+  height: auto;
   background-color: #111010;
 }
 
-.img_footer{
+.img_footer {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 
-.img1{
+.img1 {
   width: 250px;
 }
 
-.img2{
+.img2 {
   width: 150px;
 }
 
-.text_footer{
+.text_footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -243,12 +245,12 @@ a:hover {
   margin: 15px 15px 0px 15px;
 }
 
-.link_footer{
+.link_footer {
   font-size: 20px;
   margin-bottom: 25px;
 }
 
-.paragrapy_footer{
+.paragrapy_footer {
   font-size: 20px;
   margin-bottom: 35px;
 }
@@ -308,144 +310,144 @@ a:hover {
   .curiosity {
     margin: 30px;
   }
-  
-  .img_curiosity{
+
+  .img_curiosity {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
   }
-  
-  .text_curiosity{
+
+  .text_curiosity {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .curiosity1 {
     width: 250px;
     height: 184px;
   }
-  
+
   .curiosity2 {
     width: 250px;
     height: 184px;
   }
-  
+
   .curiosity h1 {
     font-size: 45px;
   }
-  
+
   .paragrapy_curiosity {
     text-align: center;
     font-size: 25px;
   }
-  
+
   .button_curiosity {
     width: 230px;
     height: 55px;
     font-size: 32px;
   }
-  .season{
+  .season {
     margin: 10px;
     margin-top: 35px;
     margin-left: 45px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
-  .h1_season{
+
+  .h1_season {
     font-size: 45px;
   }
-  
-  .h2_season{
+
+  .h2_season {
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 32px;
   }
-  
-  .paragrapy_season{
+
+  .paragrapy_season {
     font-size: 14px;
   }
-  
-  .season_impar{
+
+  .season_impar {
     max-width: 350px;
     display: flex;
     justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
   }
-  
-  .season_par{
+
+  .season_par {
     max-width: 275px;
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
     margin-left: 20px;
   }
-  
-  .img_season{
+
+  .img_season {
     width: 110px;
     height: 164px;
   }
-  
-  .text_season{
+
+  .text_season {
     display: flex;
     flex-direction: column;
   }
 
-  .h1_elenco{
+  .h1_elenco {
     font-size: 45px;
     margin-bottom: 25px;
   }
-  
-  .elenco_imgs{
+
+  .elenco_imgs {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 45px;
     margin-left: 75px;
   }
-  
-  .img_elenco{
+
+  .img_elenco {
     width: 200px;
     height: 256px;
   }
 
-  .footer{
+  .footer {
     width: 100vw;
-    height:auto;
+    height: auto;
     background-color: #111010;
   }
-  
-  .img_footer{
+
+  .img_footer {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
   }
-  
-  .img1{
+
+  .img1 {
     width: 350px;
   }
-  
-  .img2{
+
+  .img2 {
     width: 250px;
   }
-  
-  .text_footer{
+
+  .text_footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
     margin: 25px 25px 0px 25px;
   }
-  
-  .link_footer{
+
+  .link_footer {
     font-size: 30px;
     margin-bottom: 25px;
   }
-  
-  .paragrapy_footer{
+
+  .paragrapy_footer {
     font-size: 25px;
     margin-bottom: 35px;
   }
@@ -506,36 +508,36 @@ a:hover {
   .curiosity {
     margin: 25px;
   }
-  
-  .img_curiosity{
+
+  .img_curiosity {
     gap: 45px;
   }
-  
-  .text_curiosity{
+
+  .text_curiosity {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
-  
+
   .curiosity1 {
     width: 400px;
     height: 250px;
   }
-  
+
   .curiosity2 {
     width: 400px;
     height: 250px;
   }
-  
+
   .curiosity h1 {
     font-size: 55px;
   }
-  
+
   .paragrapy_curiosity {
     text-align: center;
     font-size: 25px;
   }
-  
+
   .button_curiosity {
     width: 238px;
     height: 65px;
@@ -543,67 +545,67 @@ a:hover {
     margin-bottom: 35px;
   }
 
-  .season{
+  .season {
     margin: 10px;
     margin-top: 35px;
     margin-left: 95px;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
-  .h1_season{
+
+  .h1_season {
     font-size: 45px;
   }
-  
-  .h2_season{
+
+  .h2_season {
     font-family: "Bebas Neue", cursive;
     font-weight: 400;
     font-size: 36px;
   }
-  
-  .paragrapy_season{
+
+  .paragrapy_season {
     font-size: 20px;
   }
-  
-  .season_impar{
+
+  .season_impar {
     max-width: 356px;
     display: flex;
     justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
   }
-  
-  .season_par{
+
+  .season_par {
     max-width: 450px;
     display: flex;
     justify-content: flex-end;
     margin-top: 20px;
     margin-left: 20px;
   }
-  
-  .img_season{
+
+  .img_season {
     width: 185px;
     height: 277px;
   }
-  
-  .text_season{
+
+  .text_season {
     display: flex;
     flex-direction: column;
   }
 
-  .h1_elenco{
+  .h1_elenco {
     font-size: 45px;
     margin-bottom: 25px;
   }
-  
-  .elenco_imgs{
+
+  .elenco_imgs {
     display: flex;
     justify-content: center;
     gap: 45px;
     margin-right: 70px;
   }
-  
-  .img_elenco{
+
+  .img_elenco {
     width: 200px;
     height: 256px;
   }
