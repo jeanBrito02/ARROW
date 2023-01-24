@@ -211,6 +211,47 @@ a:hover {
   margin-bottom: 40px;
 }
 
+.footer{
+  width: 100vw;
+  height:auto;
+  background-color: #111010;
+}
+
+.img_footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.img1{
+  margin-left: 85px;
+  width: 250px;
+}
+
+.img2{
+  width: 150px;
+  margin-left: 135px;
+}
+
+.text_footer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 15px 15px 0px 15px;
+}
+
+.link_footer{
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.paragrapy_footer{
+  font-size: 20px;
+  margin-bottom: 35px;
+}
+
 @media (min-width: 748px) {
   .generalbox {
     max-height: 419.06px;
