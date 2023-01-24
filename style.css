@@ -189,6 +189,28 @@ a:hover {
   flex-direction: column;
 }
 
+.h1_elenco{
+  color: #c8cd47;
+  font-size: 30px;
+  font-family: "Bebas Neue", cursive;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.elenco_imgs{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+}
+
+.img_elenco{
+  width: 131px;
+  height: 172px;
+  margin-bottom: 40px;
+}
+
 @media (min-width: 748px) {
   .generalbox {
     max-height: 419.06px;
@@ -328,6 +350,23 @@ a:hover {
   .text_season{
     display: flex;
     flex-direction: column;
+  }
+
+  .h1_elenco{
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  
+  .elenco_imgs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 45px;
+    margin-left: 75px;
+  }
+  
+  .img_elenco{
+    width: 200px;
+    height: 256px;
   }
 }
 
@@ -469,5 +508,22 @@ a:hover {
   .text_season{
     display: flex;
     flex-direction: column;
+  }
+
+  .h1_elenco{
+    font-size: 45px;
+    margin-bottom: 25px;
+  }
+  
+  .elenco_imgs{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    margin-right: 70px;
+  }
+  
+  .img_elenco{
+    width: 200px;
+    height: 256px;
   }
 }
